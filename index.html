@@ -1,0 +1,641 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <!--Css-->
+    <link rel="stylesheet" href=" Styles.css">
+
+    
+    
+</head>
+<body>
+    <header>
+      <div class="banner-text">
+      <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <img src=" images/TKM_logo_icon.png" width="60" height="60" alt="TKM_Logo" loading="lazy">
+            </a>
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#shops">Shops</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#rooms">Rooms</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Contact">Contact</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0" action="" id="fom">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search Shop" aria-label="Shop" id="myInput" autocomplete="off">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="searchFunc()">Search</button>
+            </form>
+            </div>
+        </nav>
+
+        <div class="title col-6 text-center">
+            <h2 id="main">TKM Complex</h2>
+            <h4 id="sub">The Shopping Center</h4>
+        </div>
+      </div>
+      <div class="banner"></div>
+      
+    </header>
+
+    <body>
+        
+
+
+
+
+
+        <div class="section-1" id="about">
+          <div class="row">
+            <div class="content col-md-5 p-3 m-5 border bg-light ">
+                <p class="cursi">a few words</p>
+                <p class="heading">About Us</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi laborum natus saepe eos quibusdam exercitationem placeat magni ad. Id ea porro alias, iste perferendis vero recusandae. Quas rerum id modi quidem velit sint, quia itaque consequuntur ad quam commodi sequi, magni aspernatur quis dignissimos. Eligendi voluptas dicta dignissimos illum v</p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="section-2 m-5 d-sm-none d-md-block ">
+            <div class="card-columns p-4">
+                <div class="card ">
+                  <img src=" images/Yourchoice_3.jpg" class="card-img-top" alt="...">
+                  <div class="card-img-overlay">
+                    <p class="quotes card-text text-center py-auto">"Giving to others will not take away from what you have but will in fact add to your life."</p>
+                    <footer class="blockquote-footer text-white">
+                      YourChoice
+                    </footer>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <img src=" images/Thejus_3.jpg" class="card-img-top" alt="...">
+                  <div class="card-img-overlay">
+                    <p class="quotes card-text text-center py-auto">"If we are What we Eat...Well I am Awfully Sweet."</p>
+                    <footer class="blockquote-footer text-white">
+                      ThejusBakery
+                    </footer>
+                  </div>
+                </div>
+                <div class="card bg-primary text-white text-center p-3">
+                  <blockquote class="blockquote mb-0">
+                    <p class="quotes">"Happiness is not in Money, But in shopping."</p>
+                    <footer class="blockquote-footer text-white">
+                      TKM Complex
+                    </footer>
+                  </blockquote>
+                </div>
+                <div class="card text-center">
+                  <img src=" images/Dental_2.jpg" class="card-img-top" alt="...">
+                  <div class="card-img-overlay">
+                    <p class="quotes card-text text-center py-auto">“Life begins with the confident smile”.</p>
+                    <footer class="blockquote-footer text-white">
+                      DenzRoot Clinic
+                    </footer>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src=" images/Studio_3.jpg" class="card-img-top" alt="...">
+                  <div class="card-img-overlay">
+                    <p class="quotes card-text text-center py-auto">"You don't take a photography, you make it."</p>
+                    <footer class="blockquote-footer text-white text-right">
+                      Sree Studio
+                    </footer>
+                  </div>
+                </div>
+                
+                
+              </div>
+        </div>
+
+        
+
+
+
+
+
+
+
+
+
+
+        <div class="section-3 container p-4 border rounded" id="shops">
+            <h3 class="heading text-center py-3 text-white">SHOPS</h3>
+            
+            <div class="row row-cols-1 row-cols-md-2">
+                
+              <div class="col mb-4">
+                    <div class="card" id="thejus">
+                      <div class="card-img-top p-1">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img class="d-block w-100" src="  images/Thejus_1.jpg" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block w-100" src="  images/Thejus_2.jpg" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block w-100" src="  images/Thejus_4.jpg" alt="Second slide">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">Thejus Bakery</h5>
+                        <p class="card-text"><i>“Healthy bakes is what you eat”</i>- 
+                          Good food is good mood, take the best from ThejusBakery</p>
+                        <h6 class="time">Working Time - 8AM : 10PM</h6>
+                        <h6 class="ph">Ph : 8921954946</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card" id="supermarket">
+                      <div class="card-img-top p-1">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img class="d-block w-100" src="  images/Super_1.jpg" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block w-100" src="  images/Super_2.jpg" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block w-100" src="  images/Super_3.jpg" alt="Third slide">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">City SuperMarket</h5>
+                        <p class="card-text">We aim to create a complete shopping experience that combines
+                          best-in-class quality products, customer service and store experience.</p>
+                        <h6 class="time">Working Time - 9AM : 8PM</h6>
+                        <h6 class="ph">Ph : 8921954946</h6>
+                      </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card " id="yourchoice">
+                      <div class="card-img-top p-1">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img class="d-block w-100" src="  images/Yourchoice_1.jpg" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block w-100" src="  images/Yourchoice_2.jpg" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block w-100" src="  images/Yourchoice_4.jpg" alt="Third slide">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">YourChoice</h5>
+                        <p class="card-text">Break away from the city&#39;s chaos and gift yourself a staycation..</p>
+                        <h6 class="time">Working Time - 9AM : 8PM</h6>
+                        <h6 class="ph">Ph : 8921954946</h6>
+                      </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card " id="4u">
+                      <div class="card-img-top p-1">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img class="d-block w-100" src="  images/Fouryou_1.jpg" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block w-100" src="  images/Fouryou_2.jpg" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block w-100" src="  images/Fouryou_3.jpg" alt="Third slide">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">4U</h5>
+                        <p class="card-text"><i>Complete intimate wear destination with a wide range of collections.</i>
+                          When it comes to style, sometimes less is more. As much as bright colours and vivid prints are
+                          popular in every man’s warm-weather wardrobe, choosing white pieces comes down to its clean,
+                          fresh and contemporary feel.</p>
+                        <h6 class="time">Working Time - 9AM : 8PM</h6>
+                        <h6 class="ph">Ph : 8921954946</h6>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row row-cols-1 row-cols-md-2">
+              
+              <div class="col mb-4">
+                  <div class="card" id="denzroot">
+                    <div class="card-img-top p-1">
+                      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="d-block w-100" src="  images/Dental_1.jpg" alt="First slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="  images/Dental_3.jpg" alt="Second slide">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">DenzRoot Clinic</h5>
+                      <p class="card-text">Our mission  is to provide our valued customers with state of the art of dental,oral and maxillofacial treatments under utmost sterilized condition at nominal cost.</p>
+                      <h6 class="time">Working Time - 9AM : 8PM</h6>
+                        <h6 class="ph">Ph : 8921954946</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card" id="studio">
+                    <div class="card-img-top p-1">
+                      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="d-block w-100" src="  images/Studio_1.jpg" alt="First slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="  images/Studio_2.jpg" alt="Second slide">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">SreeStudio</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h6 class="time">Working Time - 9AM : 8PM</h6>
+                        <h6 class="ph">Ph : 8921954946</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card" id="tailor">
+                    <div class="card-img-top p-1">
+                      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="d-block w-100" src="  images/Thejus_4.jpg" alt="First slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="  images/Tailor_2.jpg" alt="Second slide">
+                          </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Tailor shop</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                      <h6 class="time">Working Time - 9AM : 8PM</h6>
+                        <h6 class="ph">Ph : 8921954946</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card" id="electronics">
+                    <div class="card-img-top p-1">
+                      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="d-block w-100" src="  images/Electronics_1.jpg" alt="First slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="  images/Electronics_2.jpg" alt="Second slide">
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Electronics</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h6 class="time">Working Time - 9AM : 8PM</h6>
+                        <h6 class="ph">Ph : 8921954946</h6>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 py-3">
+                  
+              <div class="col mb-4">
+                    <div class="card" id="gulfgold">
+                      <div class="card-img-top p-1">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img class="d-block w-100" src="  images/Gulfgold_1.jpg" alt="First slide">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">Gulf Gold</h5>
+                        <p class="card-text">We  welcome you to a new world of Glamour fascination.
+                          Reasonable and affordable jewells.</p>
+                        <h6 class="time">Working Time - 9AM : 8PM</h6>
+                        <h6 class="ph">Ph : 8921954946</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div class="card" id="vegetables">
+                      <div class="card-img-top p-1">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img class="d-block w-100" src="  images/Vegetables_1.jpg" alt="First slide">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">Vegetables</h5>
+                        <p class="card-text">”go green with fresh vegetables”  
+                          Life expectancy would grow by leaps  and bounds if green vegetables smelled as good as bacon.</p>
+                        <h6 class="time">Working Time - 9AM : 8PM</h6>
+                        <h6 class="ph">Ph : 8921954946</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div class="card" id="sreemobiles">
+                      <div class="card-img-top p-1">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img class="d-block w-100" src="  images/Mobile_2.jpg" alt="First slide">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">SreeMobiles</h5>
+                        <p class="card-text">provides wide variety of cell phones to choose from at best market price.
+                          No matter what the issue, each query is given highest priority and dealt with immediately until the customer is satisfied. Experienced executives act with haste and precision to maintain optimum customer care.</p>
+                        <h6 class="time">Working Time - 9AM : 8PM</h6>
+                        <h6 class="ph">Ph : 8921954946</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div class="card" id="pny">
+                      <div class="card-img-top p-1">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img class="d-block w-100" src="  images/PNY_1.jpg" alt="First slide">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">PNY</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <h6 class="time">Working Time - 9AM : 8PM</h6>
+                        <h6 class="ph">Ph : 8921954946</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+
+
+
+
+        <div class="section-4 container-fluid my-4 py-3" id="gallery">
+          <h3 class="heading text-center text-white pb-3">Gallery</h3>
+          
+          <!--Carousel Wrapper-->
+          <div id="carousel-example-2" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-2" data-slide-to="1"></li>
+              <li data-target="#carousel-example-2" data-slide-to="2"></li>
+            </ol>
+            <!--/.Indicators-->
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <div class="view">
+                  <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(105).jpg" alt="First slide">
+                  <div class="mask rgba-black-light"></div>
+                </div>
+                <div class="carousel-caption">
+                  <h3 class="h3-responsive">This is the first title</h3>
+                  <p>First text</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <!--Mask color-->
+                <div class="view">
+                  <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(115).jpg" alt="Second slide">
+                  <div class="mask rgba-black-light"></div>
+                </div>
+                <div class="carousel-caption">
+                  <h3 class="h3-responsive">Thir is the second title</h3>
+                  <p>Secondary text</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <!--Mask color-->
+                <div class="view">
+                  <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(108).jpg" alt="Third slide">
+                  <div class="mask rgba-black-light"></div>
+                </div>
+                <div class="carousel-caption">
+                  <h3 class="h3-responsive">This is the third title</h3>
+                  <p>Third text</p>
+                </div>
+              </div>
+            </div>
+            <!--/.Slides-->
+            <!--Controls-->
+            <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+            <!--/.Controls-->
+          </div>
+          <!--/.Carousel Wrapper-->
+          
+          
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="section-5 container border  text-center  mt-5 text-white" id="rooms">
+          <div class="row">
+            
+        <div class="col-12 col-md-6">
+          <h4 class="heading text-center pt-2">Rooms for Rents</h4>
+          
+          <h3>Contact for Enquiry</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse dolore eum non dolorem aperiam suscipit culpa libero et? Harum, dolorem?</p>
+        </div>
+        <div class="col-12 col-md-6">
+        <div class="card my-3 bg-light ">
+            <div class="row no-gutters">
+              <div class="col-md-4 col-4">
+                <img src="  images/Room_1.jpg" class="card-img" width="200" height="200" alt="...">
+              </div>
+              <div class="col-md-8 col-8">
+                <div class="card-body text-dark">
+                  <h5 class="card-title">Single Bed</h5>
+                  <p class="card-text pt-2">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 offset-md-6 ">
+          <div class="card mb-3 bg-light">
+            <div class="row no-gutters">
+              <div class="col-md-4 col-4">
+                <img src="  images/Room_2.jpg" class="card-img" width="200" height="200" alt="...">
+                
+              </div>
+              <div class="col-md-8 col-8">
+                <div class="card-body text-dark">
+                  <h5 class="card-title">Double Bed</h5>
+                  <p class="card-text pt-2">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        </div>
+        
+        </div>
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+    <footer>
+    <div class="section-1 container-fluid bg-dark text-white mt-4">
+      <div class="row">   
+        <div class="col-md-4 col-8 ">
+          <div class="container mx-5 pt-3" id="Contact">
+          <h4>Connect with us :</h6>
+          <p><i class="fa fa-address-book pt-2" aria-hidden="true"></i> Address : TKM Complex <br> &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Mundur , Palakkad <br>&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;pin :678592 </p>
+          <p><i class="fas fa-phone"></i> Phone&emsp;: 9744727913<br>&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; 8921954946</p>
+          <p><i class="fas fa-envelope"></i> Email&emsp;: TKMcomplex@gmail.com</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-4 ">
+          <div class="mx-auto text-center pt-5">
+            <img src="images/TKM_logo_icon.png" height="60" width="60" alt="" class="bg-light rounded">
+            <P class="logo">TKM</P>
+            <p>TKM COMPLEX<br>SINCE 2012</p>
+
+          </div>
+        </div>
+        <div class="col-md-4  d-none d-md-block">
+          <div class="container mx-auto pt-3">
+          <h4 class="py-2">Links :</h6>
+          <a class="text-white" href="#about">About<br></a>
+          <a class="text-white" href="#gallery">Gallery<br><br></a>
+          <a class="text-white" href="#shops">Shops<br></a>
+          <a class="text-white" href="#rooms">Rooms<br><br></a>
+
+
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="section-2 container-fluid bg-dark py-1">
+      <div class="container text-center text-white ">
+        <p>Copyright <i class="far fa-copyright"></i> 2020 TKM Complex | Powered by NS_Creation</p>
+        </div>
+
+    </div>
+      
+    </footer>
+    
+
+
+
+
+
+
+
+
+  <script >
+    function searchFunc(){
+var inp=document.getElementById("myInput").value;
+document.getElementById("fom").action="#"+inp;
+}
+  </script>  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+* {
+box-sizing: border-box;
+}
+
+header,
+section {
+overflow-x: hidden;
+}
+
+:root {
+--font_Titles:'Berkshire Swash', cursive;
+--font_cursive: 'Dancing Script', cursive;
+--font_body:'Overpass', sans-serif;
+--font_shoptitle: 'Exo 2', sans-serif;
+--font_time:'Kalam', cursive;
+--font_quotes:'Bad Script', cursive;
+}
+
+.navbar{
+    font-size: 1.3rem;
+    opacity: 1;
+}
+
+
+header {
+    height: 100%;
+    color:red;
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+header .banner{
+background: url("  images/Background_1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+-webkit-background-size: cover;
+background-position: center center;
+height: 100vh;
+position: relative;
+opacity: .8;
+}
+header .banner-text{
+    position: absolute;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100vw;
+    height: 100vh;
+    background-color:rgba(0,0,0,0);
+    color:red;
+    z-index: 1;
+}
+
+header .title #main{
+    padding-top: 7rem;
+    font-size: 4rem;
+    
+}
+
+.heading{
+    font-family:var(--font_Titles);
+    font-size: 2rem;
+}
+.cursi{
+    font-family:var(--font_cursive);
+    font-size: 2rem;
+}
+.logo{
+    font-family:var(--font_cursive);
+}
+
+body{
+    font-family: var(--font_body);
+    display: block;
+    position: relative;
+}
+body::after {
+    content: "";
+    background: url("images/Background_2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;  
+    filter: blur(1.5px);
+    -webkit-filter: blur(1.5px);
+    -moz-filter: blur(1.5px); 
+}
+.card .card-title{
+    font-family: var(--font_shoptitle);
+    color: red;
+    font-weight: bold;
+}
+.card .card-body .time , .ph ,.quotes{
+    font-family: var(--font_time);
+}
+.quotes{
+    font-size: 1.25rem;
+}
+
+.section-3{
+    border-radius: 25px;
+    background: url("  images/Background_3.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.section-4{
+    background: url("  images/Background_4.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.section-5{
+    background: url("  images/Background_N5.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+footer .section-1{
+    background:grey;
+}
+
+@media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+    float: left;
+    width: 25%;
+    max-width: 100%; } 
+    
+}
+.section-2 .card-columns .card img{
+    background: #000000;
+    opacity: .7;
+    
+}
+
